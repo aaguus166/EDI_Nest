@@ -5,14 +5,17 @@ export class UsersService {
 
  usuarios: any[] = [];
   constructor() {
-   let usuario = {
+    
+   let usuario1 = {
     "id":"1",
     "name": "duki",
     "surname": "modo diablo",
     "address":"antezana 247",
-    "phone": "8737898972389"
+    "phone": "8737898972389",
+
+    
    }; 
-    this.usuarios.push(usuario)
+    this.usuarios.push(usuario1)
 }
 getUsuarios(){
     return this.usuarios
