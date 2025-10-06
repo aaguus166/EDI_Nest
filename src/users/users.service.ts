@@ -6,6 +6,7 @@ export class UsersService {
  usuarios: any[] = [];
   constructor() {
    let usuario = {
+    "id":"1",
     "name": "duki",
     "surname": "modo diablo",
     "address":"antezana 247",
@@ -17,8 +18,29 @@ getUsuarios(){
     return this.usuarios
 }
 
+getUsuarioById(id:string) {
+    for(let i = 0; i < this.usuarios.length; i++){
 
+    }
 
 }
+//id = {
+//"name" : "gojo",
+//"surname" : "satoru",
+//"addres" : "pancho 345",
+//"phone" : "83732878723
+
+
+
+
+
+
+
+
+    
+}
+
+
+
 
 
