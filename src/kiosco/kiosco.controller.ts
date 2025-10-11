@@ -4,6 +4,15 @@ import { KioscoService } from './kiosco.service';
 @Controller('kiosquito')
 export class KioscoController {
 constructor(private readonly kioskoService: KioscoService){}
+@Get()
+getProductos(){
+    return this.kioskoService.getProductos()
+}
+
+
+
+
+
 
 
 
